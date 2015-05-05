@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="SNi-Ip-i5l">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="SNi-Ip-i5l">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--main-->
@@ -81,13 +81,7 @@
                             <outletCollection property="gestureRecognizers" destination="zfw-hB-I1S" appends="YES" id="4cP-3o-gn6"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" id="bNX-GE-PVq">
-                        <barButtonItem key="rightBarButtonItem" title="settings" id="ffi-Se-zwr">
-                            <connections>
-                                <segue destination="1bV-qI-mS8" kind="modal" animates="NO" id="C32-dR-9xD"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="bNX-GE-PVq"/>
                     <connections>
                         <outlet property="billField" destination="yvl-fO-lRq" id="n1a-bf-Ipe"/>
                         <outlet property="tipControl" destination="WJy-G0-yeW" id="l2D-6a-Oiw"/>
